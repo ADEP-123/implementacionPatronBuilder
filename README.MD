@@ -21,3 +21,6 @@ El patrón Builder se ha implementado en esta aplicación para facilitar la cons
 2. **Interfaz Builder**: Define los métodos necesarios para construir cada sección del currículo, como experiencia laboral, educación, habilidades y contactos (Archivo CVBuidler.js).
 3. **Clases Concretas del Builder**: Implementan la interfaz del Builder y proporcionan la lógica para construir las diferentes secciones del currículo, permitiendo al usuario añadir o modificar la información según sea necesario (Archivos CVBuilderCronologico.js y CVBuilderFuncional.js).
 4. **Objeto Producto**: Representa el currículo final, que incluye todas las secciones y datos proporcionados por el usuario.
+
+### Diagrama de Clases
+<img src="DriagramadeClases.png">
