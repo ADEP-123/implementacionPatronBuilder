@@ -17,7 +17,7 @@ El patrón Builder se ha implementado en esta aplicación para facilitar la cons
 
 #### Funcionamiento del Patrón Builder
 
-1. **Clase Director**: Controla el proceso de construcción del currículo, utilizando el Builder para ensamblar diferentes partes del objeto.
-2. **Interfaz Builder**: Define los métodos necesarios para construir cada sección del currículo, como experiencia laboral, educación, habilidades y contactos.
-3. **Clases Concretas del Builder**: Implementan la interfaz del Builder y proporcionan la lógica para construir las diferentes secciones del currículo, permitiendo al usuario añadir o modificar la información según sea necesario.
+1. **Clase Director**: Controla el proceso de construcción del currículo, utilizando el Builder para ensamblar diferentes partes del objeto(Archivo Generador.js).
+2. **Interfaz Builder**: Define los métodos necesarios para construir cada sección del currículo, como experiencia laboral, educación, habilidades y contactos (Archivo CVBuidler.js).
+3. **Clases Concretas del Builder**: Implementan la interfaz del Builder y proporcionan la lógica para construir las diferentes secciones del currículo, permitiendo al usuario añadir o modificar la información según sea necesario (Archivos CVBuilderCronologico.js y CVBuilderFuncional.js).
 4. **Objeto Producto**: Representa el currículo final, que incluye todas las secciones y datos proporcionados por el usuario.
