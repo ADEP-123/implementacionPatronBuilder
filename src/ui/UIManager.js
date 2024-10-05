@@ -77,6 +77,8 @@ class UIManager {
 
     // Generar el CV usando el builder seleccionado
     generarCV(datos) {
+        console.log(datos);
+        
         // Verificar si se ha seleccionado un builder
         if (!this.builder) {
             throw new Error("No se ha seleccionado un formato de CV.");

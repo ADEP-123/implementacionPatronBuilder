@@ -1,31 +1,37 @@
+import CV from '../components/CV.js'
 class CVBuilder {
+    constructor() {
+        this.cv = new CV();
+    }
+
     setInformacionPersonal(informacionPersonal) {
-        throw new Error("Este método debe ser implementado");
+        this.cv.informacionPersonal = informacionPersonal;
     }
 
     addExperienciaLaboral(experiencia) {
-        throw new Error("Este método debe ser implementado");
+        this.cv.experienciaLaboral.push(experiencia);
     }
 
     addEducacion(educacion) {
-        throw new Error("Este método debe ser implementado");
+        this.cv.educacion.push(educacion);
     }
 
     addHabilidades(habilidades) {
-        throw new Error("Este método debe ser implementado");
+        this.cv.habilidades.push(habilidades);
     }
 
     addProyectos(proyectos) {
-        throw new Error("Este método debe ser implementado");
+        this.cv.proyectos.push(proyectos);
     }
 
     addReferencias(referencias) {
-        throw new Error("Este método debe ser implementado");
+        this.cv.referencias.push(referencias);
     }
 
     getCV() {
-        throw new Error("Este método debe ser implementado");
+        return this.cv;
     }
 }
+
 
 export default CVBuilder;

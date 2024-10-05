@@ -8,30 +8,6 @@ class CV {
         this.referencias = [];
     }
 
-    setInformacionPersonal(informacionPersonal) {
-        this.informacionPersonal = informacionPersonal;
-    }
-
-    addExperienciaLaboral(experiencia) {
-        this.experienciaLaboral.push(experiencia);
-    }
-
-    addEducacion(educacion) {
-        this.educacion.push(educacion);
-    }
-
-    addHabilidades(habilidades) {
-        this.habilidades.push(habilidades);
-    }
-
-    addProyectos(proyectos) {
-        this.proyectos.push(proyectos);
-    }
-
-    addReferencias(referencias) {
-        this.referencias.push(referencias);
-    }
-
     mostrarCV() {
         return {
             informacionPersonal: this.informacionPersonal,
@@ -43,5 +19,6 @@ class CV {
         };
     }
 }
+
 
 export default CV;
