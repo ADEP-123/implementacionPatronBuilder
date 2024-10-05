@@ -1,10 +1,8 @@
 import CVBuilder from './CVBuilder.js';
-import CV from '../components/CV.js';
 
 class CVBuilderFuncional extends CVBuilder {
     constructor() {
         super();
-        this.cv = new CV(); // Crea una nueva instancia de CV
     }
 
     setInformacionPersonal(informacionPersonal) {
@@ -37,7 +35,7 @@ class CVBuilderFuncional extends CVBuilder {
     }
 
     getCV() {
-        return this.cv; // Devuelve el CV construido
+        return this.cv; 
     }
 }
 

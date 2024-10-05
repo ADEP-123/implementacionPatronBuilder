@@ -1,9 +1,15 @@
+import CV from '../components/CV.js'; 
 class CVBuilder {
+    constructor() {
+        this.cv = new CV(); // Crear un objeto CV en el constructor
+    }
+
     setInformacionPersonal(informacionPersonal) {
         throw new Error("Este método debe ser implementado");
     }
 
-    addExperienciaLaboral(experiencia) {
+    // Métodos abstractos para agregar información
+    addExperiencia(experiencia) {
         throw new Error("Este método debe ser implementado");
     }
 
@@ -24,7 +30,7 @@ class CVBuilder {
     }
 
     getCV() {
-        throw new Error("Este método debe ser implementado");
+        return this.cv; 
     }
 }
 
