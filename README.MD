@@ -27,7 +27,7 @@ El patrón Builder se ha implementado en esta aplicación para facilitar la cons
 
 ## Interaactuar con la aplicacion
 
-Si desea interactuar con la aplicacion puede hacerlo a travez de la pagina web desplegada en el siguiente link, tenga en cuenta que no existe una interfaz grafica como tal, el resultado se imprime por consola:
+Si desea interactuar con la aplicacion puede hacerlo a travez de la pagina web desplegada en el siguiente link:
 https://adep-123.github.io/implementacionPatronBuilder/
 
 Por otro lado si desea copiar el repositorio puede realizarlo con el siguiente comando git en su ordenador, recuerde que debe tener instalado git:
