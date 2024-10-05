@@ -24,3 +24,14 @@ El patrón Builder se ha implementado en esta aplicación para facilitar la cons
 
 ### Diagrama de Clases
 <img src="DriagramadeClases.png">
+
+## Interaactuar con la aplicacion
+
+Si desea interactuar con la aplicacion puede hacerlo a travez de la pagina web desplegada en el siguiente link, tenga en cuenta que no existe una interfaz grafica como tal, el resultado se imprime por consola:
+https://adep-123.github.io/implementacionPatronBuilder/
+
+Por otro lado si desea copiar el repositorio puede realizarlo con el siguiente comando git en su ordenador, recuerde que debe tener instalado git:
+```bash
+- git clone https://github.com/ADEP-123/implementacionPatronBuilder.git
+```
+Posteriormente de copiar el repositorio puede abrir el archivo index.html desde local, o con un ambiente de desarrollo como visual studio code y una extension como LiveServer
